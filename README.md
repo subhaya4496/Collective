@@ -6,6 +6,8 @@ ES2b_T.m -> Simulation with fixed/reflecting boundary conditions with and withou
 Parameter File -
 Parameter_file.m -> Called in the executable files.
 
+Boundary Conditions
+
 Force Files -
 1. ForceEB.m -> Called in the executable file. Calculates the total Elastic interactions between neighbouring cells. 
                 It sums up all the neighbouring cell interactions.
