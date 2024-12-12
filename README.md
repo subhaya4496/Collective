@@ -1,12 +1,13 @@
 # Collective
 File to execute-
 
-ES2b_T.m -> Simulation with fixed/reflecting boundary conditions with and without wall interaction.
+ES2b_T.m -> Simulation with fixed/confining boundary conditions with and without wall interaction.
 
 Parameter File -
 Parameter_file.m -> Called in the executable files.
 
-Boundary Conditions
+Boundary Conditions -
+boundary.m -> Called in the executable file. Periodic and confining boundary conditions are set here
 
 Force Files -
 1. ForceEB.m -> Called in the executable file. Calculates the total Elastic interactions between neighbouring cells. 
